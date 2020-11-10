@@ -7,6 +7,7 @@ import {
   CommandNewTodo,
   CommandPrintTodos,
 } from "./Command";
+import chalk from "chalk";
 
 const commands: Command[] = [
   new CommandPrintTodos(),
